@@ -14,7 +14,7 @@ python3 -m http.server 9999
 ```
 
 # Forwarding Usage
-Change variables in `main.go` to fit your environment, then run:
+Change variables in `main.go` to fit your environment, then run on local machine:
 ```sh
 go run main.go
 ```
