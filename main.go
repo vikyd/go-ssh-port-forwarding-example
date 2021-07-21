@@ -39,7 +39,9 @@ var (
 	isPrivateKeyOrElseSSHAgent = true
 
 	privateKey = home + "/.ssh/id_rsa"
-	// your environment variable: SSH_AUTH_SOCK
+	// empty    : default will read from your environment variable: SSH_AUTH_SOCK
+	// not empty: put your ssh agent sock absolute path here
+	//   - example: /tmp/ssh-qsedlTZTnJLS/agent.1565122
 	sshAuthSock = ""
 )
 
